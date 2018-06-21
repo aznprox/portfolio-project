@@ -1,0 +1,23 @@
+.nav-bar>a{
+    font-family: 'Josefin Slab', serif;
+    background-color: none;
+    font-size: 20px;
+}
+
+.nav-bar-head{
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+}
+
+.nav-wrapper {
+    background-color: black !important;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+nav {
+    margin-top: 50px;
+    height: 100px;
+line-height: 100px;
+}
