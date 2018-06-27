@@ -4,21 +4,28 @@
     font-size: 20px;
 }
 
-.nav-bar-head{
+nav .brand-logo{
+    color: black;
     font-family: 'Josefin Slab', serif;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .nav-wrapper {
-    background-color: black !important;
-    color: black;
     font-size: 14px;
     font-weight: bold;
+    border-bottom: none;
   }
 
 nav {
+    box-shadow: none;
+    background-color: white;
     margin-bottom: 120px;
-    margin-top: 50px;
+    margin-top: 30px;
     height: 100px;
-line-height: 100px;
+    line-height: 100px;
+}
+
+nav ul a {
+    color: #b3b3b3;
+    background: transparent;
 }

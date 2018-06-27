@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from '../../components/NavBar';
 import Email from '../../components/Email';
 import Projects from '../../components/Projects';
+import './MyWork.css';
 
 class MyWork extends Component {
     state = {  }
