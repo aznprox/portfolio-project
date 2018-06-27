@@ -4,7 +4,7 @@ import { Button } from 'react-materialize';
 
 const ButtonLinks = (props) => {
     return (
-        <Button className='btn-link' waves='light' node='a' href='www.google.com'>
+        <Button className='btn-link' waves='light' node='a' href={props.url}>
             {props.name}
         </Button>
     );

@@ -9,8 +9,8 @@ class NavBar extends Component {
     render() {
         return (
             <Navbar brand={<img src={logo} alt="logo" />} className='nav-bar' right>
-                <NavItem className="nav-bar" href='components.html'>My Work</NavItem>
-                <NavItem className="nav-bar" href='get-started.html'>About Me</NavItem>
+                <NavItem className="nav-bar" href='/mywork'>My Work</NavItem>
+                <NavItem className="nav-bar" href='/aboutme'>About Me</NavItem>
                 <NavItem className="nav-bar" href='components.html'>Resume</NavItem>
             </Navbar>
         );

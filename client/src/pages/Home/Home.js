@@ -14,8 +14,8 @@ class Home extends Component {
                         <h1>Hi, I'm Taly (Jay) Huang</h1>
                         <h3>Software Engineer</h3>
                         <div className='buttons'>
-                            <ButtonLinks name='My Work' />
-                            <ButtonLinks name='About Me' />
+                            <ButtonLinks url='/mywork' name='My Work' />
+                            <ButtonLinks url= '/aboutme' name='About Me' />
                         </div>
                     </Col>
                 </Row>
